@@ -1,0 +1,16 @@
+import Haiku from './../src/haiku.js';
+
+describe('Haiku', () => {
+  let reusableHaiku;
+
+  beforeEach(() => {
+    reusableHaiku = new Haiku("An ocean voyage.", "As waves break over the bow, ", "the sea welcomes me.");
+  });
+
+  test('should correctly create a haiku object', () => {
+    expect(reusableHaiku.line1).toBe("An ocean voyage.");
+    expect(reusableHaiku.line2).toBe("As waves break over the bow, ");
+    expect(reusableHaiku.line3).toBe("the sea welcomes me.");
+  });
+});
+
