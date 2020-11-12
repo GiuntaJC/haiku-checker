@@ -29,12 +29,18 @@ _This application will detect if a poem is a haiku._
 Describe: Haiku();
 
 Test: "It should correctly create a haiku object."<br>
-Expect(haiku).toBe("An ocean voyage.", "As waves break over the bow, ", "the sea welcomes me."); <br>
+Expect(haiku).toBe("An ocean voyage.", "As waves break over the bow, ", "the sea welcomes me.");
 
 Describe: vowelCount();<br>
 
 Test: "It will count the number of vowels in line1"<br>
-Expect(haiku.VowelCount).toEqual(7)<br>
+Expect(haiku.VowelCount).toEqual(7)
+
+Describe: syllableCount();<br>
+
+Test: "It will count the number of syllables in line 1"<br>
+Expect(haiku.syllableCount).toEqual(5);
+
 
 ## Support and contact details
 

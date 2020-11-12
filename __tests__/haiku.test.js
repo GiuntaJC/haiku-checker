@@ -1,4 +1,5 @@
 import Haiku from './../src/haiku.js';
+// import syllable?
 
 describe('Haiku', () => {
   let reusableHaiku;
@@ -14,5 +15,9 @@ describe('Haiku', () => {
   });
   test('should correctly count the number of vowels in line1', () => {
     expect(reusableHaiku.vowelCount()).toEqual(7);
+  });
+
+  test('should correctly return syllable count in line1', () => {
+    expect(reusableHaiku.findSyllable()).toEqual(5);
   });
 });
