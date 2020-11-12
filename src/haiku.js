@@ -12,7 +12,7 @@ export default class Haiku {
     return this.line1.match(/[aeiou]/gi).length;
   }
   findSyllable() {
-    let syllableCount = syllables(this.line2);
+    let syllableCount = syllables(this.line1);
     return syllableCount;
   }
 };
