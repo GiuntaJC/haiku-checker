@@ -8,9 +8,7 @@ export default class Haiku {
     this.line2 = line2;
     this.line3 = line3;
   }
-  vowelCount() {
-    return this.line1.match(/[aeiou]/gi).length;
-  }
+  
   findSyllable() {
     let syllableCount = syllables(this.line1);
     return syllableCount;
