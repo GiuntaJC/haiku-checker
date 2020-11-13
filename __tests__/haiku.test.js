@@ -13,10 +13,7 @@ describe('Haiku', () => {
     expect(reusableHaiku.line2).toBe("As waves break over the bow, ");
     expect(reusableHaiku.line3).toBe("the sea welcomes me.");
   });
-  test('should correctly count the number of vowels in line1', () => {
-    expect(reusableHaiku.vowelCount()).toEqual(7);
-  });
-
+  
   test('should correctly return syllable count in line1', () => {
     expect(reusableHaiku.findSyllable()).toEqual(5);
   });
