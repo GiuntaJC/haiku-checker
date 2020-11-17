@@ -1,8 +1,8 @@
-# Haiku  Checker
+# Haiku Checker
 
 #### Practice project, Last Updated 11.12.2020
 
-#### **By Chelsea Becker and Agata Kolodziej**
+#### **By Chelsea Becker, Agata Kolodziej, and Joseph Giunta**
 
 ## Description
 
@@ -11,7 +11,8 @@ _This application will detect if a poem is a haiku._
 ## Setup/Installation Requirements
 ### View Online
 1. _Open the webpage at https://cschweig2.github.io/haiku-checker._
-2. _Do x, y, and z to navigate application._
+2. _Enter your haiku._
+3. _The application will return whether or not it is a haiku._
 
 ### View locally (on computer)
 1. _Open web browser and go to https://github.com/cschweig2/haiku-checker_
@@ -48,7 +49,7 @@ Expect(haiku.findSyllable()).toEqual(5);
 
 ## Support and contact details
 
-_If you run into any issues, you can contact the creator at cschweig2@gmail.com, or make contributions to the code on GitHub via forking and creating a new branch._
+_If you run into any issues, you can contact the creator at chelraebecker@gmail.com, or make contributions to the code on GitHub via forking and creating a new branch._
 
 ## Technologies Used
 
@@ -63,4 +64,4 @@ _JQuery_
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2020 **Chelsea Becker and Agata Kolodziej**
+Copyright (c) 2020 **Chelsea Becker, Agata Kolodziej, Joseph Giunta**
