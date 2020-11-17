@@ -1,4 +1,8 @@
 h1 {
-  color: rgb(18, 82, 165);
+  color: rgb(211, 122, 181);
   text-align: center;
+}
+
+#haiku-output {
+  margin-top: 25px;
 }

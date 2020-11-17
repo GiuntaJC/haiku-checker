@@ -39,6 +39,7 @@
     "cmu-pronouncing-dictionary": "^1.0.3",
     "extractwords": "^1.2.0",
     "jquery": "^3.5.1",
+    "pexels": "^1.0.1",
     "popper.js": "^1.16.1",
     "syllables": "^1.0.0"
   }
